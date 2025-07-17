@@ -18,17 +18,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+label{
+  text-align: start;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
 .utente-card {
   border-radius: 12px;
-  background-color: white;
+  background-color: #1E2939;
+  justify-items: center;
   padding: 16px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .utente-name {
   color: var(--foreground);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-weight: bold;
-  color: black;
+  color: #f2f2f2;
   text-align: center;
   margin-top: 10px;
 }
